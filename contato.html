@@ -18,7 +18,21 @@
         <input type="radio" name="horario" value="manha"/> Manhã <br/>
         <input type="tarde" name="tarde" value="tarde"/> Tarde <br/>
         <input type="noite" name="noite" value="noite"/> Noite <br/>
-        <textarea cols="60" rows="10" >Texto padrão</textarea>
+        <textarea name="mensagem" cols="60" rows="10" >Texto padrão</textarea>
+
+        <input list="cidade" name="cidade">
+
+        <datalist id="cidade">
+           
+            <option value="Blumenau">Blumenau</option>
+            <option value="Florianópolis">Florianópolis</option>
+            <option value="Joinvile">Joinvile</option>
+        </datalist>
+
+        <button type="button">Outra ação</button>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+
     </form>
 </body>
 </html>
